@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Antic Slab', serif;
+    background-color: #F5F5F5;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container {
+    display: inline-block;
+}
+
+nav {
+    background-color: #14274E;
+    color: #F1F6F9;
+    height: 7vh;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-text {
+    margin-left: 20px;
+    padding-top: 7px;
+    font-size: 30px;
+}
+
+.body {
+    margin-left: 110px;
+    margin-top: 9vh;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 0.8fr 4fr;
+}
+
+.left-pane {
+    color: #14274E;
+    background-color: #fff;
+    padding: 40px;
+    height: max-content;
+    border-radius: 25px;
+    font-weight: lighter;
+    position: sticky;
+    top: 9vh;
+}
+
+.left-pane-section {
+    margin-bottom: 20px;
+}
+
+select {
+    margin-top: 10px;
+}
+
+h5 {
+    margin-bottom: 10px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.profile-card {
+    background-color: #fff;
+    width: 500px;
+    height: 650px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-name-location {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-header img {
+    margin-right: 10px;
+}
+
+.profile-name {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bolder;
+}
+
+.profile-location {
+    font-size: 20px;
+    line-height: 24px;
+    color: #878D98;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.section-headline {
+    font-weight: bolder;
+}
+
+.languages-section-body {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    text-align: center;
+    color: #040303;
+}
+
+.languages-section-body div {
+    width: 100px;
+    background-color: #F1F6F9;
+    padding: 5px;
+}
+
+.profile-qualification {
+    margin-top: 20px;
+}
+
+.qualification-section-body {
+    margin-top: 10px;
+    height: 140px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.qualification-title {
+    font-weight: bolder;
+    color: #14274E;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.qualification-university {
+    color: #878D98;
+}
+
+.profile-experience {
+    margin-top: 20px;
+}
+
+.profile-fees {
+    margin-top: 20px;
+}
+
+.profile-footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-button {
+    padding: 10px;
+    width: 200px;
+    background-color: #EAEEF1;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+hr {
+    border: 0.5px solid #878D98;
+}
+
+@media screen and (max-width: 1300px) {
+    /* todo */
+  }
